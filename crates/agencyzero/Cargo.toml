@@ -1,0 +1,11 @@
+[package]
+name = "agencyzero"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+rama-net-apple-xpc.workspace = true
+tokio.workspace = true
+tracing-subscriber.workspace = true

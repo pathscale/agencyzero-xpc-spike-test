@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key><string>com.24x.agencyzero.spike</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>@ABSOLUTE_PATH_TO@/agencyzero</string>
+		<string>--require</string>
+		<string>identifier agentone and certificate leaf = H"@SPIKEGOOD_CERT_SHA1@"</string>
+	</array>
+	<key>MachServices</key>
+	<dict><key>com.24x.agencyzero.spike</key><true/></dict>
+	<key>StandardOutPath</key><string>/tmp/agencyzero.log</string>
+	<key>StandardErrorPath</key><string>/tmp/agencyzero.err</string>
+</dict>
+</plist>
