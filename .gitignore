@@ -3,3 +3,4 @@
 *.keychain-db
 /scripts/identities
 .DS_Store
+Cargo.lock
